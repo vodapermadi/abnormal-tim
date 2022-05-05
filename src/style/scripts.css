@@ -3,3 +3,27 @@
 * {
     font-family: 'Roboto Slab', serif;
 }
+
+.bgNavbar {
+    background: black;
+}
+
+.bgFotoHome {
+    background: #323232;
+}
+
+.bgHome {
+    background: #9a9a9a;
+    padding-top: 30px ;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.bgButton {
+    background: #FFAC41;
+}
+
+.bgButton:hover {
+    background: #ff9203;
+    transition: 0.5s;
+}

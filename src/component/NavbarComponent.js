@@ -6,10 +6,9 @@ const NavbarComponent = () => {
   return (
     <div>
       <Navbar
-        bg="primary"
         variant="dark"
         expand="lg"
-        className="shadow-lg mb-5 py-"
+        className="shadow-lg mb-5 bgNavbar"
       >
         <Container>
           <Navbar.Toggle
@@ -18,7 +17,7 @@ const NavbarComponent = () => {
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="">
-              <Link to={`/`} className="nav-link shadow px-2 my-2 mx-2">
+              <Link to={`/abnormal-tim`} className="nav-link shadow px-2 my-2 mx-2">
                 Home
               </Link>
               <Link to={`contact`} className="nav-link shadow px-2 my-2 mx-2">
