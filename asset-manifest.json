@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/abnormal-tim/static/css/main.f966ec66.css",
+    "main.js": "/abnormal-tim/static/js/main.2035d20d.js",
+    "static/media/vodapermadi.jpeg": "/abnormal-tim/static/media/vodapermadi.1fdfae6f31e922acdb1d.jpeg",
+    "static/media/sabrinautami.jpg": "/abnormal-tim/static/media/sabrinautami.446a9886dd1606d3cd56.jpg",
+    "index.html": "/abnormal-tim/index.html",
+    "main.f966ec66.css.map": "/abnormal-tim/static/css/main.f966ec66.css.map",
+    "main.2035d20d.js.map": "/abnormal-tim/static/js/main.2035d20d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f966ec66.css",
+    "static/js/main.2035d20d.js"
+  ]
+}
