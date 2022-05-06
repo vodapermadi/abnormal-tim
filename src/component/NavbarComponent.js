@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Navbar, Nav } from "react-bootstrap";
+import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const NavbarComponent = () => {
@@ -20,29 +20,19 @@ const NavbarComponent = () => {
               <Link to={`/abnormal-tim`} className="nav-link shadow px-2 my-2 mx-2">
                 Home
               </Link>
-              <Link to={`contact`} className="nav-link shadow px-2 my-2 mx-2">
-                Contact
-              </Link>
-              {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">
-                  Action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown> */}
+              <NavDropdown title="Contact" id="basic-nav-dropdown" className="my-2 mx-2">
+                <Link to={`contact/vodapermadi`} className="dropdown-item" >
+                  Philipus Voda Permadi
+                </Link>
+                <Link to={`contact/sabrinautami`} className="dropdown-item" >
+                  Sabrina Utami
+                </Link>
+              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
-          <Navbar.Brand href="#home" className="ms-auto">
+          <Link to={`abnormal-tim`} className="navbar-brand ms-auto">
             Abnormal
-          </Navbar.Brand>
+          </Link>
         </Container>
       </Navbar>
     </div>
